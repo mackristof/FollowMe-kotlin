@@ -79,7 +79,7 @@ open class WebSecurityConfig : WebSecurityConfigurerAdapter() {
                 .logout()
                 .permitAll()
 
-//        http.csrf().disable()
+        http.csrf().disable()
     }
 
     @Autowired
